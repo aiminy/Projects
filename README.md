@@ -1,6 +1,11 @@
 # Projects
 
-We developed several pipelines for processing and analyzing different types of data from different research groups, and created the SCCC-BBC git repository to organize these pipelines. These pipelines include:
+In sccc/bcc, my projects includes two parts:
+
+The first part is about independent statistics and bioinformatics methodology research related to processing and analyzing deep sequencing data. This research has let me publish a biocoductor package:
+
+
+The second part is about supply statistics and bioinformatics service to cancer investigators in SCCC. This part has let me develop quite a lot of useful pipelines to help cancer biologists to enhance their understanding on cancer genomics. These pipelines include:
 
 1.	ChipSeq: a pipeline for processing and analyzing ChipSeq data.  ChipSeq pipeline includes multiple steps. These steps include talking with cancer biologists to understand their research goal, setting up suitable design of experiment to make data analysis to be easier, getting sequencing read files(FASTQ files), quality control of FASTQ file, developing parser for dealing with sample information, alignment, quality control before peaking calling, peak calling, assessing the reproducibility of biological replicates using IDR, checking peak overlapping and binding affinity analysis, peak annotation, identifying the links with other binding profiles and motif finding. I use the following workflow to illustrate all these procedures in this pipeline.
 
@@ -46,3 +51,5 @@ We develop this pipeline to use strelka and mutect to identify somatic variants,
 
 11.	ATAC-seq pipeline
 We have downloaded and installed ATAC-seq procedures from https://github.com/kundajelab/atac_dnase_pipelines. The testing of this pipeline in our 
+
+12. Pipeline to study detained introns related RNA-Seq data
