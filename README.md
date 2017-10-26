@@ -53,6 +53,6 @@ We develop this Sophia R pipeline to process and analyze microarray based gene e
 We develop this pipeline to use strelka and mutect to identify somatic variants, and to use vcftools to process vcf files, and to use annovar and VEP to annotate variants.    
 
 11.	ATAC-seq pipeline
-We have downloaded and installed ATAC-seq procedures from https://github.com/kundajelab/atac_dnase_pipelines. The testing of this pipeline in our 
+We have downloaded and installed ATAC-seq procedures from https://github.com/kundajelab/atac_dnase_pipelines. The testing of this pipeline in our this pipeline in our system is under way.
 
 12. Pipeline to study detained introns related RNA-Seq data
