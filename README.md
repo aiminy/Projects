@@ -7,6 +7,8 @@ The first part is about independent statistics and bioinformatics methodology re
 
 https://bioconductor.org/packages/devel/bioc/html/PathwaySplice.html
 
+I have submitted the paper of this biocoductor package as a leading author, and this paper is under review.
+
 ## Supply statistics and bioinformatics service
 The second part is about supply statistics and bioinformatics service to cancer investigators in SCCC. This part has let me develop quite a lot of useful pipelines to help cancer biologists to enhance their understanding on cancer genomics. These pipelines include:
 
