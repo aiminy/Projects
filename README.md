@@ -12,7 +12,7 @@ The second part is about supply statistics and bioinformatics service to cancer 
 
 1.	ChipSeq: a pipeline for processing and analyzing ChipSeq data.  ChipSeq pipeline includes multiple steps. These steps include talking with cancer biologists to understand their research goal, setting up suitable design of experiment to make data analysis to be easier, getting sequencing read files(FASTQ files), quality control of FASTQ file, developing parser for dealing with sample information, alignment, quality control before peaking calling, peak calling, assessing the reproducibility of biological replicates using IDR, checking peak overlapping and binding affinity analysis, peak annotation, identifying the links with other binding profiles and motif finding. I use the following workflow to illustrate all these procedures in this pipeline.
 
-! [Image of Yaktocat](/"Screenshot 2017-10-26 10.54.09.png")
+! [Image of ChipSeq](https://github.com/aiminy/Projects/Screenshot 2017-10-26 10.54.09.png)
 
 2.	Pipeline for protein structure prediction
 We developed this pipeline to use primary sequence data of proteins to predict protein tertiary structure, and to identify the effects of certain amino acid mutation on protein tertiary structure. This pipeline includes processing mutated FASTA file of protein primary sequence data, submitting sequence to LOMEST and TASSER prediction server to get predicted models, use Swiss-PDB viewer to manipulate and visualize models, superpose protein models, calculate RMS between models globally and locally. We also developed R pipeline for alignment, superposition, RMSD calculation, clustering of structure models.
