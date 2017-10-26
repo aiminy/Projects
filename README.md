@@ -1,6 +1,6 @@
 # Projects
 
-## In sccc/bbc, my projects includes two parts:
+## In sccc/bbc, my projects include two parts:
 
 ### Statistics and bioinformatics methodology research 
 The first part is about independent statistics and bioinformatics methodology research related to processing and analyzing deep sequencing data. This research has let me publish a biocoductor package:
