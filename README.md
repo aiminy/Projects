@@ -10,7 +10,7 @@ https://bioconductor.org/packages/devel/bioc/html/PathwaySplice.html
 I have submitted the paper of this biocoductor package as a leading author, and this paper is under review.
 
 ## Supply statistics and bioinformatics service
-The second part is about supply statistics and bioinformatics service to cancer investigators in SCCC and the research of statistics and bioinformatics methods and tools arising from their specific data sets. This part has let me develop quite a lot of useful pipelines to help cancer biologists to enhance their understanding on cancer genomics. These pipelines include:
+The second part is about supplying statistics and bioinformatics service to cancer investigators in SCCC and performing the research of statistics and bioinformatics methods and tools arising from their specific data sets. This part has let me develop quite a lot of useful pipelines to help cancer biologists to enhance their understanding on cancer genomics. These pipelines include:
 
 1.	ChipSeq: a pipeline for processing and analyzing ChipSeq data.  ChipSeq pipeline includes multiple steps. These steps include talking with cancer biologists to understand their research goal, setting up suitable design of experiment to make data analysis to be easier, getting sequencing read files(FASTQ files), quality control of FASTQ file, developing parser for dealing with sample information, alignment, quality control before peaking calling, peak calling, assessing the reproducibility of biological replicates using IDR, checking peak overlapping and binding affinity analysis, peak annotation, identifying the links with other binding profiles and motif finding. I use the following workflow to illustrate all these procedures in this pipeline.
 
